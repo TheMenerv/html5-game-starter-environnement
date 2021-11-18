@@ -12,6 +12,10 @@
         "email": "mail@menerv.net",
         "url": "https://menerv.net"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TheMenerv/html5-game-starter-environnement.git"
+    },
     "license": "GPLv3",
     "devDependencies": {
         "@babel/core": "^7.16.0",
