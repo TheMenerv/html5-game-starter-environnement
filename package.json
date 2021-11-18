@@ -1,0 +1,32 @@
+{
+    "name": "html5-game-starter-environnement",
+    "version": "1.0.0",
+    "description": "HTML5 game stater environnement",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack/prod.js ",
+        "start": "webpack-dev-server --config webpack/dev.js --open"
+    },
+    "author": {
+        "name": "Yoan B. as Menerv",
+        "email": "mail@menerv.net",
+        "url": "https://menerv.net"
+    },
+    "license": "GPLv3",
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "babel-loader": "^8.2.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.5.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "raw-loader": "^4.0.2",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.2.5",
+        "webpack": "^5.64.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.5.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
